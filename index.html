@@ -14,8 +14,8 @@
         :root {
             --color1: black;
             --color2: white;
-            --color3: gray;
-            --color4: rgb(202, 202, 202);
+            --color3: rgb(82, 80, 80);
+            --color4: rgb(251, 246, 246);
         }
 
         * {
@@ -24,7 +24,7 @@
             padding: 0;
         }
 
-        .nav-bar img{
+        .nav-bar img {
             height: 60px;
             filter: invert();
             margin-left: 20px;
@@ -60,29 +60,34 @@
         .line {
             height: 18px;
         }
-        @keyframes coverHomePage{
-            white{
+
+        @keyframes coverHomePage {
+            white {
                 background-color: white;
             }
-            orange{
+
+            orange {
                 background-color: orange;
             }
-            green{
+
+            green {
                 background-color: greenyellow;
             }
-            pink{
+
+            pink {
                 background-color: pink;
             }
         }
 
-        .dynamic-poster{
+        .dynamic-poster {
             height: 100vh;
             width: 100vw;
             object-fit: fill;
             animation: coverHomePage 4s ease-in-out 1s infinite;
-            
+
         }
-        section .product-cards .card{
+
+        section .product-cards .card {
             height: 500px;
             width: 350px;
             background-color: var(--color4);
@@ -91,22 +96,21 @@
             justify-content: center;
 
         }
-        section .product-cards{
+
+        section .product-cards {
             display: grid;
-            grid-template-columns: 20% 20% 20% ;
+            grid-template-columns: 20% 20% 20%;
             column-gap: 50px;
             row-gap: 50px;
             justify-content: center;
         }
 
-        section .product-cards .card img{
-            width: 80%;
-            height: 75%;
+        section .product-cards .card img {
             margin: 10px;
             border-radius: 10px;
         }
 
-        footer{
+        footer {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -129,14 +133,14 @@
     </div>
     <div class="line"></div>
     <div class="dynamic-poster">
-        
+
     </div>
     <div class="line"></div>
     <section>
         <div class="product-cards">
             <div class="card">
                 <img src="shoes1.jpg" alt="shoes1 not found">
-                
+
             </div>
             <div class="card">
                 <img src="shoes2.jpg" alt="shoes2 not found">

@@ -87,7 +87,7 @@ section .product-cards .card {
 section .product-cards {
     display: grid;
     grid-template-columns: 20% 20% 20%;
-    column-gap: 50px;
+    column-gap: 120px;
     row-gap: 50px;
     justify-content: center;
 }
